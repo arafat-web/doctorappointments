@@ -4,7 +4,7 @@
             aria-controls="offcanvasExample">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand fw-bold" href="index.html">E-Student</a>
+        <a class="navbar-brand fw-bold" href="/">E-Student</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

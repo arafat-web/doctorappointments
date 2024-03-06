@@ -24,7 +24,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="banner-section bg-overlay-white bg_img"
-                            data-background="assets/images/frontend/banner/5fc4e1ae9c2e51606738350.jpg">
+                            data-background="{{asset('client')}}/assets/images/frontend/banner/5fc4e1ae9c2e51606738350.jpg">
                             <div class="custom-container">
                                 <div class="row justify-content-center align-items-center">
                                     <div class="col-xl-6 text-center">
@@ -36,7 +36,7 @@
                                                 doctors.
                                             </p>
                                             <div class="banner-btn">
-                                                <a href="doctors-all.html" class="cmn-btn">Make Appointment</a>
+                                                <a href="/doctors" class="cmn-btn">Make Appointment</a>
                                             </div>
                                         </div>
                                     </div>
@@ -46,7 +46,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="banner-section bg-overlay-white bg_img"
-                            data-background="assets/images/frontend/banner/5fc4e19491c0b1606738324.jpg">
+                            data-background="{{asset('client')}}/assets/images/frontend/banner/5fc4e19491c0b1606738324.jpg">
                             <div class="custom-container">
                                 <div class="row justify-content-center align-items-center">
                                     <div class="col-xl-6 text-center">
@@ -66,7 +66,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="banner-section bg-overlay-white bg_img"
-                            data-background="assets/images/frontend/banner/5fc4e17c9f17c1606738300.jpg">
+                            data-background="{{asset('client')}}/assets/images/frontend/banner/5fc4e17c9f17c1606738300.jpg">
                             <div class="custom-container">
                                 <div class="row justify-content-center align-items-center">
                                     <div class="col-xl-6 text-center">
@@ -161,7 +161,7 @@
                                 outcomes
                                 across the full continuum of care.</p>
                             <div class="choose-btn">
-                                <a href="doctors-all.html" class="cmn-btn">Book Now</a>
+                                <a href="/doctors" class="cmn-btn">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -175,7 +175,7 @@
                                                 <div class="right-column-one">
                                                     <div class="choose-item">
                                                         <div class="choose-thumb">
-                                                            <img src="assets/sector/605f194c9393f1616845132.png"
+                                                            <img src="{{asset('client')}}/assets/sector/605f194c9393f1616845132.png"
                                                                 alt="choose">
                                                         </div>
                                                         <div class="choose-content">
@@ -188,7 +188,7 @@
                                                     </div>
                                                     <div class="choose-item">
                                                         <div class="choose-thumb">
-                                                            <img src="assets/sector/604a0077b1b341615462519.png"
+                                                            <img src="{{asset('client')}}/assets/sector/604a0077b1b341615462519.png"
                                                                 alt="choose">
                                                         </div>
                                                         <div class="choose-content">
@@ -207,7 +207,7 @@
                                                 <div class="right-column-two">
                                                     <div class="choose-item">
                                                         <div class="choose-thumb">
-                                                            <img src="assets/sector/604a010ab280d1615462666.jpg"
+                                                            <img src="{{asset('client')}}/assets/sector/604a010ab280d1615462666.jpg"
                                                                 alt="choose">
                                                         </div>
                                                         <div class="choose-content">
@@ -220,7 +220,7 @@
                                                     </div>
                                                     <div class="choose-item">
                                                         <div class="choose-thumb">
-                                                            <img src="assets/sector/5fc4934a5f47d1606718282.png"
+                                                            <img src="{{asset('client')}}/assets/sector/5fc4934a5f47d1606718282.png"
                                                                 alt="choose">
                                                         </div>
                                                         <div class="choose-content">
@@ -243,7 +243,7 @@
                                                 <div class="right-column-one">
                                                     <div class="choose-item">
                                                         <div class="choose-thumb">
-                                                            <img src="assets/sector/5fc493e08dd861606718432.png"
+                                                            <img src="{{asset('client')}}/assets/sector/5fc493e08dd861606718432.png"
                                                                 alt="choose">
                                                         </div>
                                                         <div class="choose-content">
@@ -255,7 +255,7 @@
                                                     </div>
                                                     <div class="choose-item">
                                                         <div class="choose-thumb">
-                                                            <img src="assets/sector/5fc493cab8f8c1606718410.png"
+                                                            <img src="{{asset('client')}}/assets/sector/5fc493cab8f8c1606718410.png"
                                                                 alt="choose">
                                                         </div>
                                                         <div class="choose-content">
@@ -273,7 +273,7 @@
                                                 <div class="right-column-two">
                                                     <div class="choose-item">
                                                         <div class="choose-thumb">
-                                                            <img src="assets/sector/5fc493afb11a91606718383.png"
+                                                            <img src="{{asset('client')}}/assets/sector/5fc493afb11a91606718383.png"
                                                                 alt="choose">
                                                         </div>
                                                         <div class="choose-content">
@@ -285,7 +285,7 @@
                                                     </div>
                                                     <div class="choose-item">
                                                         <div class="choose-thumb">
-                                                            <img src="assets/sector/604a02b8abd041615463096.jpg"
+                                                            <img src="{{asset('client')}}/assets/sector/604a02b8abd041615463096.jpg"
                                                                 alt="choose">
                                                         </div>
                                                         <div class="choose-content">
@@ -327,7 +327,7 @@
                         <a href="#">
                             <div class="disease-item">
                                 <div class="choose-thumb">
-                                    <img src="assets/sector/605f194c9393f1616845132.png" alt="choose">
+                                    <img src="{{asset('client')}}/assets/sector/605f194c9393f1616845132.png" alt="choose">
                                 </div>
                                 <div class="disease-content">
                                     <h4 class="title"><a href="disease.html">Hematologist</a>
@@ -341,7 +341,7 @@
                         <a href="#">
                             <div class="disease-item">
                                 <div class="choose-thumb">
-                                    <img src="assets/sector/604a0077b1b341615462519.png" alt="choose">
+                                    <img src="{{asset('client')}}/assets/sector/604a0077b1b341615462519.png" alt="choose">
                                 </div>
                                 <div class="disease-content">
                                     <h4 class="title"><a href="disease.html">Ophthalmology</a>
@@ -355,7 +355,7 @@
                         <a href="#">
                             <div class="disease-item">
                                 <div class="choose-thumb">
-                                    <img src="assets/sector/604a010ab280d1615462666.jpg" alt="choose">
+                                    <img src="{{asset('client')}}/assets/sector/604a010ab280d1615462666.jpg" alt="choose">
                                 </div>
                                 <div class="disease-content">
                                     <h4 class="title"><a href="disease.html">Dental</a>
@@ -369,7 +369,7 @@
                         <a href="#">
                             <div class="disease-item">
                                 <div class="choose-thumb">
-                                    <img src="assets/sector/5fc4934a5f47d1606718282.png" alt="choose">
+                                    <img src="{{asset('client')}}/assets/sector/5fc4934a5f47d1606718282.png" alt="choose">
                                 </div>
                                 <div class="disease-content">
                                     <h4 class="title"><a href="disease.html">ENT</a></h4>
@@ -382,7 +382,7 @@
                         <a href="#">
                             <div class="disease-item">
                                 <div class="choose-thumb">
-                                    <img src="assets/sector/5fc493e08dd861606718432.png" alt="choose">
+                                    <img src="{{asset('client')}}/assets/sector/5fc493e08dd861606718432.png" alt="choose">
                                 </div>
                                 <div class="disease-content">
                                     <h4 class="title"><a href="disease.html">Oncology</a>
@@ -396,7 +396,7 @@
                         <a href="#">
                             <div class="disease-item">
                                 <div class="choose-thumb">
-                                    <img src="assets/sector/5fc493cab8f8c1606718410.png" alt="choose">
+                                    <img src="{{asset('client')}}/assets/sector/5fc493cab8f8c1606718410.png" alt="choose">
                                 </div>
                                 <div class="disease-content">
                                     <h4 class="title"><a href="disease.html">Neurology</a>
@@ -410,7 +410,7 @@
                         <a href="#">
                             <div class="disease-item">
                                 <div class="choose-thumb">
-                                    <img src="assets/sector/5fc493afb11a91606718383.png" alt="choose">
+                                    <img src="{{asset('client')}}/assets/sector/5fc493afb11a91606718383.png" alt="choose">
                                 </div>
                                 <div class="disease-content">
                                     <h4 class="title"><a href="disease.html">Cardiology</a></h4>
@@ -423,7 +423,7 @@
                         <a href="#">
                             <div class="disease-item">
                                 <div class="choose-thumb">
-                                    <img src="assets/sector/604a02b8abd041615463096.jpg" alt="choose">
+                                    <img src="{{asset('client')}}/assets/sector/604a02b8abd041615463096.jpg" alt="choose">
                                 </div>
                                 <div class="disease-content">
                                     <h4 class="title"><a href="disease.html">Gynecology</a></h4>
@@ -437,7 +437,7 @@
                 <div class="row justify-content-center mrt-60">
                     <div class="col-lg-12 text-center">
                         <div class="team-btn">
-                            <a href="doctors-all-featured.html" class="cmn-btn-active">View More</a>
+                            <a href="/diseases" class="cmn-btn-active">View More</a>
                         </div>
                     </div>
                 </div>
@@ -461,7 +461,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mrb-30">
                         <div class="booking-item bg-white">
                             <div class="booking-thumb">
-                                <img src="assets/doctor/images/profile/605f15f99f1921616844281.jpg" alt="booking">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/605f15f99f1921616844281.jpg" alt="booking">
                                 <div class="doc-deg">ENT</div>
                             </div>
                             <div class="booking-content">
@@ -474,7 +474,7 @@
                                     <li><i class="las la-phone"></i> 987999999</li>
                                 </ul>
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -482,7 +482,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mrb-30">
                         <div class="booking-item bg-white">
                             <div class="booking-thumb">
-                                <img src="assets/doctor/images/profile/605f162d78c7c1616844333.jpg" alt="booking">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/605f162d78c7c1616844333.jpg" alt="booking">
                                 <div class="doc-deg">Cardiology</div>
                             </div>
                             <div class="booking-content">
@@ -496,7 +496,7 @@
                                     <li><i class="las la-phone"></i> 7987899</li>
                                 </ul>
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -504,7 +504,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mrb-30">
                         <div class="booking-item bg-white">
                             <div class="booking-thumb">
-                                <img src="assets/doctor/images/profile/605f16dc7d6041616844508.jpg" alt="booking">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/605f16dc7d6041616844508.jpg" alt="booking">
                                 <div class="doc-deg">Gynecology</div>
                             </div>
                             <div class="booking-content">
@@ -517,7 +517,7 @@
                                     <li><i class="las la-phone"></i> 654488787</li>
                                 </ul>
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -525,7 +525,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mrb-30">
                         <div class="booking-item bg-white">
                             <div class="booking-thumb">
-                                <img src="assets/doctor/images/profile/605f168dbc8581616844429.jpg" alt="booking">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/605f168dbc8581616844429.jpg" alt="booking">
                                 <div class="doc-deg">Oncology</div>
                             </div>
                             <div class="booking-content">
@@ -538,7 +538,7 @@
                                     <li><i class="las la-phone"></i> 01286545</li>
                                 </ul>
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -546,7 +546,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mrb-30">
                         <div class="booking-item bg-white">
                             <div class="booking-thumb">
-                                <img src="assets/doctor/images/profile/5ffd911c4fb861610453276.jpg" alt="booking">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/5ffd911c4fb861610453276.jpg" alt="booking">
                                 <div class="doc-deg">Ophthalmology</div>
                             </div>
                             <div class="booking-content">
@@ -560,7 +560,7 @@
                                     <li><i class="las la-phone"></i> 624564156</li>
                                 </ul>
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -568,7 +568,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mrb-30">
                         <div class="booking-item bg-white">
                             <div class="booking-thumb">
-                                <img src="assets/doctor/images/profile/5ffd9070747d71610453104.jpg" alt="booking">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/5ffd9070747d71610453104.jpg" alt="booking">
                                 <div class="doc-deg">Neurology</div>
                             </div>
                             <div class="booking-content">
@@ -581,7 +581,7 @@
                                     <li><i class="las la-phone"></i> 56456459</li>
                                 </ul>
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -589,7 +589,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mrb-30">
                         <div class="booking-item bg-white">
                             <div class="booking-thumb">
-                                <img src="assets/doctor/images/profile/5ffd9048020671610453064.jpg" alt="booking">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/5ffd9048020671610453064.jpg" alt="booking">
                                 <div class="doc-deg">Gynecology</div>
                             </div>
                             <div class="booking-content">
@@ -602,7 +602,7 @@
                                     <li><i class="las la-phone"></i> 9787465</li>
                                 </ul>
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -610,7 +610,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6 mrb-30">
                         <div class="booking-item bg-white">
                             <div class="booking-thumb">
-                                <img src="assets/doctor/images/profile/5ffd8ffd36fd61610452989.jpg" alt="booking">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/5ffd8ffd36fd61610452989.jpg" alt="booking">
                                 <div class="doc-deg">Dental</div>
                             </div>
                             <div class="booking-content">
@@ -623,7 +623,7 @@
                                     <li><i class="las la-phone"></i> 014656235</li>
                                 </ul>
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -632,7 +632,7 @@
                 <div class="row justify-content-center mrt-60">
                     <div class="col-lg-12 text-center">
                         <div class="team-btn">
-                            <a href="doctors-all.html" class="cmn-btn-active">View More</a>
+                            <a href="/doctors" class="cmn-btn-active">View More</a>
                         </div>
                     </div>
                 </div>
@@ -655,7 +655,7 @@
                     <div class="col-xl-6 col-lg-4 col-md-6 mrb-30">
                         <div class="team-item d-flex flex-wrap align-items-center justify-content-between">
                             <div class="team-thumb">
-                                <img src="assets/doctor/images/profile/605f162d78c7c1616844333.jpg" alt="doctor-image">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/605f162d78c7c1616844333.jpg" alt="doctor-image">
                                 <div class="team-thumb-overlay">
                                     <ul class="social-icon">
                                         <li><a href="https://www.facebook.com/" target="_blank"><i
@@ -674,7 +674,7 @@
                                 <p>FRCS, FRCOG, FRCP</p>
 
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -682,7 +682,7 @@
                     <div class="col-xl-6 col-lg-4 col-md-6 mrb-30">
                         <div class="team-item d-flex flex-wrap align-items-center justify-content-between">
                             <div class="team-thumb">
-                                <img src="assets/doctor/images/profile/605f16dc7d6041616844508.jpg" alt="doctor-image">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/605f16dc7d6041616844508.jpg" alt="doctor-image">
                                 <div class="team-thumb-overlay">
                                     <ul class="social-icon">
                                         <li><a href="https://www.facebook.com/" target="_blank"><i
@@ -699,7 +699,7 @@
                                 <p>MBBS, FRCS, FRCOG, FRCP</p>
 
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -707,7 +707,7 @@
                     <div class="col-xl-6 col-lg-4 col-md-6 mrb-30">
                         <div class="team-item d-flex flex-wrap align-items-center justify-content-between">
                             <div class="team-thumb">
-                                <img src="assets/doctor/images/profile/5ffd9048020671610453064.jpg" alt="doctor-image">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/5ffd9048020671610453064.jpg" alt="doctor-image">
                                 <div class="team-thumb-overlay">
                                     <ul class="social-icon">
                                         <li><a href="https://www.facebook.com/" target="_blank"><i
@@ -726,7 +726,7 @@
                                 <p>MBBS, FRCS, FRCOG, FRCP, FCPS</p>
 
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -734,7 +734,7 @@
                     <div class="col-xl-6 col-lg-4 col-md-6 mrb-30">
                         <div class="team-item d-flex flex-wrap align-items-center justify-content-between">
                             <div class="team-thumb">
-                                <img src="assets/doctor/images/profile/5ffd8ffd36fd61610452989.jpg" alt="doctor-image">
+                                <img src="{{asset('client')}}/assets/doctor/images/profile/5ffd8ffd36fd61610452989.jpg" alt="doctor-image">
                                 <div class="team-thumb-overlay">
                                     <ul class="social-icon">
                                         <li><a href="https://www.google.com/" target="_blank"><i
@@ -753,7 +753,7 @@
                                 <p>BDS, MDS - Oral &amp; Maxillofacia...</p>
 
                                 <div class="booking-btn">
-                                    <a href="booking.html" class="cmn-btn">Book Now</a>
+                                    <a href="/booking" class="cmn-btn">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -762,7 +762,7 @@
                 <div class="row justify-content-center mrt-60">
                     <div class="col-lg-12 text-center">
                         <div class="team-btn">
-                            <a href="doctors-all-featured.html" class="cmn-btn-active">View More</a>
+                            <a href="/doctors/featured" class="cmn-btn-active">View More</a>
                         </div>
                     </div>
                 </div>

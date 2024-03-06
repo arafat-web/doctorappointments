@@ -5,7 +5,7 @@
                 <div class="col-lg-4 col-sm-6 mrb-30">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="index.html" class="site-logo"><img src="assets/images/logoIcon/logo.png"
+                            <a href="/" class="site-logo"><img src="assets/images/logoIcon/logo.png"
                                     alt="site-logo"></a>
                         </div>
                         <p>DrsPoint is the best place to find your preferable specialist and doctors. So feel free

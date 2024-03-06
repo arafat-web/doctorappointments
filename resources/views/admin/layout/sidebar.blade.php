@@ -2,14 +2,14 @@
 aria-labelledby="offcanvasExampleLabel">
 <div class="offcanvas-header shadow-sm d-block text-center">
   <div class="offcanvas-title" id="offcanvasExampleLabel">
-    <a class="navbar-brand fw-bold" href="index.html">E-Student</a>
+    <a class="navbar-brand fw-bold" href="/">E-Student</a>
   </div>
 </div>
 <div class="offcanvas-body pt-3 p-0">
   <nav class="navbar-dark">
     <ul class="navbar-nav sidenav">
       <li class="nav-link bordered px-3 active">
-        <a href="index.html" class="nav-link px-3 active">
+        <a href="/" class="nav-link px-3 active">
           <span class="me-2"><i class="bi bi-speedometer2"></i></span>
           <span>Dashboard</span>
         </a>

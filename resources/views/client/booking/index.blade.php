@@ -1,97 +1,13 @@
-<!doctype html>
-<html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>DrsPoint - Dr. Danneal Walker - Booking</title>
-    <!-- site favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/images/logoIcon/favicon.png">
-    <!-- font -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-        rel="stylesheet">
-    <!-- fontawesome css link -->
-    <link rel="stylesheet" href="assets/templates/basic/css/fontawesome-all.min.css">
-    <!-- line-awesome webfont -->
-    <link rel="stylesheet" href="assets/templates/basic/css/line-awesome.min.css">
-    <!-- nice-select css -->
-    <link rel="stylesheet" href="assets/templates/basic/css/nice-select.css">
-    <!-- bootstrap css link -->
-    <link rel="stylesheet" href="assets/templates/basic/css/bootstrap.min.css">
-    <!-- swipper css link -->
-    <link rel="stylesheet" href="assets/templates/basic/css/swiper.min.css">
-    <!-- chosen css -->
-    <link rel="stylesheet" href="assets/templates/basic/css/chosen.css">
-    <!-- icon css -->
-    <link rel="stylesheet" href="assets/templates/basic/css/themify.css">
-    <!-- animate.css -->
-    <link rel="stylesheet" href="assets/templates/basic/css/animate.css">
-    <!-- main style css link -->
-    <link rel="stylesheet" href="assets/templates/basic/css/main.css">
-    <!-- site color -->
-    <link rel="stylesheet" href="assets/templates/basic/css/colorb45d.css?color1=FF8787">
-
-</head>
-
-<body>
-
-    <div class="loader">
-        <div class="heartbeatloader">
-            <svg class="svgdraw" width="100%" height="100%" viewBox="0 0 150 400">
-                <path class="path"
-                    d="M 0 200 l 40 0 l 5 -40 l 5 40 l 10 0 l 5 15 l 10 -140 l 10 220 l 5 -95 l 10 0 l 5 20 l 5 -20 l 30 0"
-                    fill="transparent" stroke-width="4" stroke="black" />
-            </svg>
-            <div class="innercircle"></div>
-            <div class="outercircle"></div>
-        </div>
-    </div>
-
-    <!-- header-section start -->
-    <header class="header-section header-section-two">
-        <div class="header">
-            <div class="header-bottom-area">
-                <div class="container-fluid">
-                    <div class="header-menu-content">
-                        <nav class="navbar navbar-expand-lg p-0">
-                            <a class="site-logo site-title" href="index.html"><img src="assets/images/logoIcon/logo.png"
-                                    alt="site-logo"></a>
-                            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="fas fa-bars"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav main-menu ml-auto mr-auto">
-                                    <li class=""><a href="index.html">Home</a></li>
-                                    <li class="active"><a href="doctors-all.html">Doctors</a></li>
-                                    <li class=""><a href="disease.html">Disease</a></li>
-                                    <li class=""><a href="contact.html">Contact Us</a></li>
-                                    <li class=""><a href="about.html">About Us</a></li>
-                                </ul>
-                                <div class="header-bottom-action">
-                                    <a href="doctors-all.html" class="cmn-btn">Book Now</a>
-                                </div>
-                                <div class="header-bottom-action">
-                                    <a href="login.html" class="cmn-btn">Login Now</a>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- header-section end -->
-    <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+@extends('client.layout.app')
+@section('title')
+    Booking | Doctor Appointments
+@endsection
+@section('content')
     <div class="all-sections">
         <!-- booking-section start -->
         <!-- banner-section start -->
         <section class="inner-banner-section bg-overlay-white banner-section bg_img"
-            data-background="/assets/images/frontend/breadcrumb/5fd078f78945f1607497975.jpg">
+            data-background="{{asset('client')}}/assets/images/frontend/breadcrumb/5fd078f78945f1607497975.jpg">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -100,7 +16,7 @@
                             <div class="breadcrumb-area">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="/">Home</a></li>
                                         <li class="breadcrumb-item active" aria-current="page">Dr. Danneal Walker -
                                             Booking</li>
                                     </ol>
@@ -119,7 +35,7 @@
                         <div class="booking-item d-flex flex-wrap align-items-center justify-content-between mb-5">
                             <div class="booking-left d-flex align-items-center">
                                 <div class="booking-thumb">
-                                    <img src="../assets/doctor/images/profile/5ffd8ffd36fd61610452989.jpg" alt="doctor">
+                                    <img src="{{asset('client')}}/assets/doctor/images/profile/5ffd8ffd36fd61610452989.jpg" alt="doctor">
                                 </div>
                                 <div class="booking-content">
                                     <span class="sub-title"><a href="#0">Dental</a></span>
@@ -234,8 +150,7 @@
                                             </div>
                                             <div class="overview-content">
                                                 <h5 class="title">Specializations</h5>
-                                                <div
-                                                    class="overview-footer-area d-flex flex-wrap justify-content-between">
+                                                <div class="overview-footer-area d-flex flex-wrap justify-content-between">
                                                     <ul class="overview-footer-list">
                                                         <li><i class="fas fa-long-arrow-alt-right"></i>Dental Fillings
                                                         </li>
@@ -442,8 +357,7 @@
                                                                                 placeholder="Phone number*" required>
                                                                         </div>
                                                                         <div class="col-lg-12 form-group">
-                                                                            <textarea name="disease"
-                                                                                placeholder="Disease details*"></textarea>
+                                                                            <textarea name="disease" placeholder="Disease details*"></textarea>
                                                                         </div>
                                                                         <div
                                                                             class="col-lg-12 form-group d-flex flex-wrap justify-content-between">
@@ -466,7 +380,8 @@
                                                                 <h4 class="title">Confirm Your Booking</h4>
                                                                 <ul class="booking-confirm-list">
                                                                     <li><span>Patient Name</span> : <span
-                                                                            class="custom-color" id="name"></span></li>
+                                                                            class="custom-color" id="name"></span>
+                                                                    </li>
                                                                     <li><span>Age</span> : <span class="custom-color"
                                                                             id="age"></span></li>
                                                                     <li><span>Email</span> : <span class="custom-color"
@@ -476,8 +391,7 @@
                                                                     </li>
                                                                     <li><span>Date & Time</span> : <span
                                                                             class="custom-color" id="date"></span> ,
-                                                                        <span class="custom-color"
-                                                                            id="book-time"></span>
+                                                                        <span class="custom-color" id="book-time"></span>
                                                                     </li>
                                                                     <li><span>Fees</span> : 9 $</li>
                                                                 </ul>
@@ -504,166 +418,14 @@
         </section>
         <!-- overview-section end -->
     </div>
-    <!-- call-to-action section start -->
-    <section class="call-to-action-section">
-        <div class="container">
-            <div class="row justify-content-center align-self-center">
-                <div class="col-lg-8 text-center">
-                    <div class="call-to-action-area">
-                        <div class="call-info">
-                            <div class="call-info-thumb">
-                                <img src="assets/images/frontend/footer/5fc4bbd9ae3d01606728665.png" alt="call">
-                            </div>
-                            <div class="call-info-content">
-                                <h4 class="title">
-                                    <span>Emergency Call</span>
-                                    <a href="#">+12345-678-9</a>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="mail-info">
-                            <div class="mail-info-thumb">
-                                <img src="assets/images/frontend/footer/5fc4bbd9b073d1606728665.png" alt="email">
-                            </div>
-                            <div class="mail-info-content">
-                                <h4 class="title">
-                                    <span>24/7 Email Support</span>
-                                    <a href="#"><span>DrsPoint@gmail.com</span></a>
-                                </h4>
-                            </div>
-                        </div>
-                        <span class="dc-or-text">- OR -</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- call-to-action section end -->
+@endsection
 
-
-    <!-- footer-section start -->
-    <footer class="footer-section ptb-80">
-        <div class="custom-container">
-            <div class="footer-area">
-                <div class="row ml-b-30">
-                    <div class="col-lg-4 col-sm-6 mrb-30">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html" class="site-logo"><img src="assets/images/logoIcon/logo.png"
-                                        alt="site-logo"></a>
-                            </div>
-                            <p>DrsPoint is the best place to find your preferable specialist and doctors. So feel free
-                                to
-                                contact us and get the best experience.</p>
-                            <ul>
-                                <li><i class="fas fa-headphones-alt"></i> +88-01774585923</li>
-                                <li><i class="far fa-envelope"></i> <a href="">DrsPoint@gmail.com</a></li>
-                                <li><i class="fas fa-location-arrow"></i> Dhaka, Bangladesh</li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-sm-6 mrb-30">
-                        <div class="footer-widget">
-                            <h3 class="widget-title">For Patients</h3>
-                            <ul>
-                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Search for Doctors</a></li>
-                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Login</a></li>
-                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Registration</a></li>
-                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Booking</a></li>
-                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Patient Dashboard</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-sm-6 mrb-30">
-                        <div class="footer-widget">
-                            <h3 class="widget-title">For Doctors</h3>
-                            <ul>
-                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Login</a></li>
-                                <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Doctor Dashboard</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 mrb-30">
-                        <div class="footer-widget">
-                            <h3 class="widget-title">Subscribe Us</h3>
-                            <p>Once you subscribe to our newsletter, we will send our promo offers and news to your
-                                email.</p>
-
-                            <form class="footer-form">
-                                <input type="email" name="email" id="subscriber" placeholder="Enter Your Email"
-                                    required>
-                                <button type="button" class="submit-btn subs"><i class="icon-arrow-right"></i></button>
-                            </form>
-                            <div class="social-area">
-                                <ul class="footer-social">
-                                    <li><a href="https://www.whatsapp.com/?lang=en" target="_blank"><i
-                                                class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/" target="_blank"><i
-                                                class="lab la-pinterest"></i></a></li>
-                                    <li><a href="https://twitter.com/?lang=en" target="_blank"><i
-                                                class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://www.youtube.com/" target="_blank"><i
-                                                class="fab fa-youtube"></i></a></li>
-                                    <li><a href="https://www.google.com/" target="_blank"><i
-                                                class="fab fa-instagram"></i></a></li>
-                                    <li><a href="https://www.google.com/" target="_blank"><i
-                                                class="fab fa-facebook-f"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <div class="privacy-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="copyright-area d-flex flex-wrap align-items-center justify-content-center">
-                        <div class="copyright">
-                            <p>Copyright © 2022 by DrsPoint. All Rights reserved</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- footer-section end -->
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <!-- jquery -->
-    <script src="assets/templates/basic/js/jquery-3.3.1.min.js"></script>
-    <!-- migarate-jquery -->
-    <script src="assets/templates/basic/js/jquery-migrate-3.0.0.js"></script>
-    <!-- bootstrap js -->
-    <script src="assets/templates/basic/js/bootstrap.min.js"></script>
-    <!-- nice-select js-->
-    <script src="assets/templates/basic/js/jquery.nice-select.js"></script>
-    <!-- chosen js -->
-    <script src="assets/templates/basic/js/chosen.jquery.js"></script>
-    <!-- swipper js -->
-    <script src="assets/templates/basic/js/swiper.min.js"></script>
-    <!-- wow js file -->
-    <script src="assets/templates/basic/js/wow.min.js"></script>
-    <!-- main -->
-    <script src="assets/templates/basic/js/script.js"></script>
-
-    <link rel="stylesheet" href="assets/templates/basic/css/iziToast.min.css">
-    <script src="assets/templates/basic/js/iziToast.min.js"></script>
-
-
+@push('script')
     <script>
-
-        (function ($) {
+        (function($) {
             'use strict';
 
-            $(document).on('click', '.active-time ', function () {
+            $(document).on('click', '.active-time ', function() {
                 $('.time').val($(this).data('value'));
                 $('#book-time').text($(this).data('value'));
             });
@@ -678,15 +440,18 @@
             var url = "../booked_date.json";
             var date = booking;
             var id = '9';
-            var data = { date: date, doctor_id: id }
+            var data = {
+                date: date,
+                doctor_id: id
+            }
 
-            $.get(url, data, function (response) {
+            $.get(url, data, function(response) {
                 $('.time').val('');
                 if (response.length == 0) {
                     $('.available-time').removeClass('disabled').addClass('active-time');
                 } else {
                     $('.available-time').removeClass('disabled').addClass('active-time');
-                    $.each(response, function (key, value) {
+                    $.each(response, function(key, value) {
                         var item = $(`.item${value}`);
                         item.addClass('disabled').removeClass('active-time');
                     });
@@ -697,22 +462,25 @@
 
 
 
-            $('select[name=booking_date]').on('change', function () {
+            $('select[name=booking_date]').on('change', function() {
                 $('.available-time').removeClass('active');
                 var date = $('#date').text($(this).val());
 
                 var url = "../booked_date.json";
                 var date = $(this).val();
                 var id = '9';
-                var data = { date: date, doctor_id: id }
+                var data = {
+                    date: date,
+                    doctor_id: id
+                }
 
-                $.get(url, data, function (response) {
+                $.get(url, data, function(response) {
                     $('.time').val('');
                     if (response.length == 0) {
                         $('.available-time').removeClass('disabled').addClass('active-time');
                     } else {
                         $('.available-time').removeClass('disabled').addClass('active-time');
-                        $.each(response, function (key, value) {
+                        $.each(response, function(key, value) {
                             var item = $(`.item${value}`);
                             item.addClass('disabled').removeClass('active-time');
                         });
@@ -726,24 +494,24 @@
 
 
 
-            $(document).on('click', '.payment-system', function () {
+            $(document).on('click', '.payment-system', function() {
                 $('.payment').val($(this).data('value'));
             });
 
-            $(document).on('input', '[name=name]', function () {
+            $(document).on('input', '[name=name]', function() {
                 $('#name').text($(this).val());
             });
-            $(document).on('input', '[name=age]', function () {
+            $(document).on('input', '[name=age]', function() {
                 $('#age').text($(this).val());
             });
-            $(document).on('input', '[name=email]', function () {
+            $(document).on('input', '[name=email]', function() {
                 $('#email').text($(this).val());
             });
-            $(document).on('input', '[name=mobile]', function () {
+            $(document).on('input', '[name=mobile]', function() {
                 $('#mobile').text($(this).val());
             });
 
-            $(document).on('click', '.reset ', function () {
+            $(document).on('click', '.reset ', function() {
                 $('#name').text('');
                 $('#age').text('');
                 $('#email').text('');
@@ -758,22 +526,7 @@
             });
         })(jQuery);
     </script>
+@endpush
 
-
-    <link rel="stylesheet" href="../assets/templates/basic/css/iziToast.min.css">
-    <script src="../assets/templates/basic/js/iziToast.min.js"></script>
-
-
-    <script>
-        "use strict";
-        function notify(status, message) {
-            iziToast[status]({
-                message: message,
-                position: "topRight"
-            });
-        }
-    </script>
-
-</body>
-
-</html>
+{{-- <link rel="stylesheet" href="../assets/templates/basic/css/iziToast.min.css">
+    <script src="../assets/templates/basic/js/iziToast.min.js"></script> --}}

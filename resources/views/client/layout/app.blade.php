@@ -65,7 +65,7 @@
                     <div class="call-to-action-area">
                         <div class="call-info">
                             <div class="call-info-thumb">
-                                <img src="assets/images/frontend/footer/5fc4bbd9ae3d01606728665.png" alt="call">
+                                <img src="{{asset('client')}}/assets/images/frontend/footer/5fc4bbd9ae3d01606728665.png" alt="call">
                             </div>
                             <div class="call-info-content">
                                 <h4 class="title">
@@ -76,7 +76,7 @@
                         </div>
                         <div class="mail-info">
                             <div class="mail-info-thumb">
-                                <img src="assets/images/frontend/footer/5fc4bbd9b073d1606728665.png" alt="email">
+                                <img src="{{asset('client')}}/assets/images/frontend/footer/5fc4bbd9b073d1606728665.png" alt="email">
                             </div>
                             <div class="mail-info-content">
                                 <h4 class="title">
@@ -123,6 +123,8 @@
     <link rel="stylesheet" href="{{asset('client/assets')}}/templates/basic/css/iziToast.min.css">
     <script src="{{asset('client/assets')}}/templates/basic/js/iziToast.min.js"></script>
 
+ 
+    @stack('script')
 
     <script>
         "use strict";
